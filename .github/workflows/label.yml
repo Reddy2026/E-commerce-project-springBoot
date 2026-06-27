@@ -9,6 +9,7 @@ on:
   pull_request:
     branches: 
       - master2
+      
 jobs:
   NewActions:
     runs-on: ubuntu-latest

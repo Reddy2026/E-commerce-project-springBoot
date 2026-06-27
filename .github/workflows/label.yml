@@ -7,6 +7,10 @@
 
 name: Labeler
 on: [push]
+    pull_request:
+      branches: 
+        - master2
+
 
 jobs:
   label:

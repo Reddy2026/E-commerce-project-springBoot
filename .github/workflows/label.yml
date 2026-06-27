@@ -1,10 +1,21 @@
 name: Labeler
+<<<<<<< HEAD
 
 on:
+=======
+on:
+  push:
+    branches:
+      - master2
+>>>>>>> a7e0595 (added label.yml)
   pull_request:
     branches:
       - master2
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> a7e0595 (added label.yml)
 jobs:
   NewActions:
     runs-on: ubuntu-latest

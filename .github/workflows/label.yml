@@ -12,6 +12,7 @@ jobs:
   label:
 
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    steps:
+      - name: new job
+        run: echo "My job"
       

@@ -4,8 +4,11 @@
 # To use this workflow, you will need to set up a .github/labeler.yml
 # file with configuration.  For more information, see:
 # https://github.com/actions/labeler
-
 name: Labeler
+on: 
+  pull_request:
+    branches: 
+      - master2
 on:
   pull_request:
       branches: 
@@ -13,7 +16,7 @@ on:
 
 
 jobs:
-  label:
+  NewActions:
 
     runs-on: ubuntu-latest
     steps:

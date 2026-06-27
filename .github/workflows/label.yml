@@ -12,7 +12,7 @@ on:
 
 
 jobs:
-  label:
+  NewActions:
 
     runs-on: ubuntu-latest
     steps:

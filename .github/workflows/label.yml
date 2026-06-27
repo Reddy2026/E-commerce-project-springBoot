@@ -17,5 +17,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: new job
-        run: echo "My job"
+        run: echo "My job, ${{ vars.MY_NAME }}"
       

@@ -9,5 +9,4 @@ jobs:
   NewActions:
     runs-on: ubuntu-latest
     steps:
-      - name: my job
-        run: echo "My job, ${{ secrets.DOCKER_PASSWORD }}"
+      - uses: actions/checkout@v7

@@ -35,5 +35,5 @@ jobs:
         with:
           context: ./JtProject
           push: true
-          tags: vasakkal/E-commerce-project-springBoot:latest
+          tags: vasakkal/e-commerce-project-springboot:latest
         

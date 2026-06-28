@@ -22,7 +22,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: |
-            ${{ secrets.DOCKER_USERNAME }}/vasakkal:latest
-            ${{ secrets.DOCKER_USERNAME }}/vasakkal:${{ https://github.com/Reddy2026/E-commerce-project-springBoot.git }}
+          tags: vasakkal/e-commerce-project:latest
         

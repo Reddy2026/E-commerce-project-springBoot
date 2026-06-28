@@ -6,7 +6,7 @@ on:
       - master2
       
 jobs:
-  NewActions:
+  springbootapp:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

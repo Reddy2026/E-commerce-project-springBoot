@@ -29,5 +29,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: vasakkal/e-commerce-project:latest
+          tags: vasakkal/E-commerce-project-springBoot:latest
         
